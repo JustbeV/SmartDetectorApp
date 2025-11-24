@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F9FAFB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- About Us -->
+        <TextView
+            android:id="@+id/tvAboutTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text=" About  "
+            android:textColor="#293454"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvAboutContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E5E7EB"
+            android:padding="12dp"
+            android:text="This Smart Fire Detection and Suppression System was developed as part of our Capstone Project. Its purpose is to help households and establishments detect fire early, automatically activate water suppression, and notify users through the mobile app."
+            android:textSize="16sp"
+            android:textColor="#0F172A"
+            android:layout_marginBottom="20dp" />
+
+        <!-- FAQ Title -->
+        <TextView
+            android:id="@+id/tvFaqTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#111827"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Q1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#E0F2FE"
+            android:padding="12dp"
+            android:text="Q: What does this system do?\nA: It detects fire and automatically activates water suppression while sending notifications."
+            android:textSize="16sp"
+            android:textColor="#0F172A"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Q2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#DCFCE7"
+            android:padding="12dp"
+            android:text="Q: Can I manually control the water pump?\nA: No, for now."
+            android:textSize="16sp"
+            android:textColor="#0F172A"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Q3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FEF9C3"
+            android:padding="12dp"
+            android:text="Q: Does the app automatically call 911?\nA:  No, it won’t call automatically. But it provides a shortcut button so you can quickly dial 911 when needed."
+            android:textSize="16sp"
+            android:textColor="#0F172A"
+            android:layout_marginBottom="14dp" />
+
+        <!-- Q4 (Status Page Info) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FCE7F3"
+            android:padding="12dp"
+            android:text="Q: What is the Status page for?\nA: The Status page displays real-time and historical data of Fire, Smoke, and Gas detections. You can:\n• View the latest status \n• Monitor a live updating line chart of fire and smoke events\n• Filter data by Recent or Full History to track activity over time."
+            android:textSize="16sp"
+            android:textColor="#0F172A"
+            android:layout_marginBottom="14dp" />
+
+
+    </LinearLayout>
+</ScrollView>

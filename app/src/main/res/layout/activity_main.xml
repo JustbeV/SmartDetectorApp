@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#293454"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="App Logo"
+        android:src="@mipmap/pixelated_logo" />
+
+    <!-- Current System Status -->
+    <TextView
+        android:id="@+id/tvCurrentStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="System Status: SAFE"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!--    testing-->
+    <!--    <Button-->
+    <!--        android:id="@+id/btnTestAlarm"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="61dp"-->
+    <!--        android:layout_marginBottom="16dp"-->
+    <!--        android:backgroundTint="@android:color/holo_blue_dark"-->
+    <!--        android:text=" View Status"-->
+    <!--        android:textColor="@android:color/white" />-->
+
+    <!-- Action Buttons -->
+    <Button
+        android:id="@+id/btnStatus"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text=" View the latest event summaries and detection status"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/btnCall911"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:text="Emergency Numbers"
+        android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/btnManageWifi"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Manage Internet connection"
+        android:textColor="@android:color/white" />
+
+    <!-- Pump Controls -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+<!--        <Button-->
+<!--            android:id="@+id/btnPumpOn"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginEnd="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="@android:color/holo_green_dark"-->
+<!--            android:text="💧 Pump ON"-->
+<!--            android:textColor="@android:color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnPumpOff"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:backgroundTint="@android:color/darker_gray"-->
+<!--            android:text="🛑 Pump OFF"-->
+<!--            android:textColor="@android:color/white" />-->
+
+        <Button
+            android:id="@+id/btnManageNumbers"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="Manage Alert Phone Numbers"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+    <!-- Footer Section -->
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="❓ FAQ | ℹ️ About"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/tvFooter2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Sign up for our newsletter"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#293454">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Manage Internet Connection"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:layout_marginBottom="24dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etWifiName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="WiFi Name (SSID)"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etWifiPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="WiFi Password"
+        android:padding="16dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnSaveWifi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:text="Save WiFi Settings"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
